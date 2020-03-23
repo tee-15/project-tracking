@@ -1,0 +1,130 @@
+/*big tablets to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width:1200px){
+    img.images-devices {
+        left: -14em;
+        margin-top: 7em;
+        width: 44em;
+        position: relative;
+    }
+    section.information {
+        margin-top: 39em;
+    }
+    section.row-pictures {
+        height: 39em;
+        float: right;
+        background-color: hsl(207, 33%, 95%);
+        margin-top: -7em;
+        border-bottom-left-radius: 93px;
+        border-bottom-right-radius: 93px;
+        width: 44em;
+    }
+    .btn {
+        font-size: 35px;
+    }
+    .monograph {
+        font-size: 35px;
+        
+    }
+    .dashboard {
+        font-size: 35px;
+    
+    }
+    h1.power {
+        font-size: 66px;
+    }
+    p.project {
+        margin-top: 1em;
+        font-size: 39px;
+        line-height: 2em;
+    }
+    button.clickb {
+        margin-left: 3em;
+        margin-top: 1em;
+        font-size: 34px;
+    }
+    p.preview {
+        margin-top: 2em;
+        margin-left: 1em;
+        font-size: 36px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+        font-size: 26px;
+    }
+
+}
+
+/*small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width:1023px){
+    img.images-devices {
+        left: -14em;
+        margin-top: 7em;
+        width: 44em;
+        position: relative;
+    }
+    section.information {
+        margin-top: 39em;
+    }
+    section.row-pictures {
+        height: 39em;
+        float: right;
+        background-color: hsl(207, 33%, 95%);
+        margin-top: -7em;
+        border-bottom-left-radius: 93px;
+        border-bottom-right-radius: 93px;
+        width: 44em;
+    }
+    .btn {
+        font-size: 35px;
+    }
+    .monograph {
+        font-size: 35px;
+        
+    }
+    .dashboard {
+        font-size: 35px;
+    
+    }
+    h1.power {
+        font-size: 66px;
+    }
+    p.project {
+        margin-top: 1em;
+        font-size: 39px;
+        line-height: 2em;
+    }
+    button.clickb {
+        margin-left: 3em;
+        margin-top: 1em;
+        font-size: 34px;
+    }
+    p.preview {
+        margin-top: 2em;
+        margin-left: 1em;
+        font-size: 36px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+        font-size: 26px;
+    }
+
+    
+    
+    
+
+
+}
+
+/*small phone to small tablets: from 481px to 767px*/
+@media only screen and (max-width:767px){
+
+
+}
+/*small phone: from 0 to 480px*/
+@media only screen and (max-width:480px){
+    
+}

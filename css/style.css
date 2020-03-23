@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+   html,
+   body{
+     font-weight: 400,700;
+     font-size: 16px;
+     text-rendering: optimizeLegibility;
+     font-family:Barlow;
+     background-color: #fff;
+     
+
+    
+    
+     
+    
+    
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+    
+}
+img.logo {
+    margin-left: 7em;
+    margin-top: 5em;
+}
+section.row-pictures {
+    height: 39em;
+    float: right;
+    background-color: hsl(207, 33%, 95%);
+    margin-top: -7em;
+    border-bottom-left-radius: 93px;
+    border-bottom-right-radius: 93px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+img.images-devices {
+    margin-top: 16em;
+}
+.row-text {
+    display: flex;
+    margin-left: 7em;
+    margin-top: 11em;
+}
+.monograph {
+    margin-left: 1em;
+    color: hsl(230, 11%, 40%);
+    font-size: 18px;
+    font-family: Barlow Condensed;
+    font-weight: 100;
+}
+.dashboard{
+    margin-left: 1em;
+    color: hsl(230, 11%, 40%);
+    font-size: 18px;
+    font-family:  Barlow Condensed;
+    font-weight: 100;
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 14px;
+}
+.message {
+    margin-left: 7em;
+    margin-top: 2em;
+}
+h1.power {
+    font-size: 40px;
+    color: hsl(230, 29%, 20%);
+    font-weight: bold;
+}
+p.project {
+    margin-top: 1em;
+    font-size: 21px;
+}
+button.clickb {
+    margin-left: 8em;
+    margin-top: 5em;
+    background-color:  hsl(0, 100%, 68%);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 12px;
+    color: #fff;
+}
+.schedule {
+    display: flex;
+}
+p.preview {
+    margin-top: 5em;
+    margin-left: 1em;
+    color: hsl(230, 11%, 40%) ;
+}
